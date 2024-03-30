@@ -1,12 +1,12 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
-type ButtopProps = {
+type ButtonProps = {
     children: ReactNode,
     customClass: string
 }
 
-function Button(props : ButtopProps) {
-    return (<button type ="button" className={`btn ${props.customClass}`}>{props.children}</button>);
+function Button(props : ButtonProps) {
+    return (<button type = "button" className = {`btn ${props.customClass}`}>{props.children}</button>);
 }
 
 export default Button;
