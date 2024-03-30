@@ -1,10 +1,11 @@
 import Button from './components/Button.tsx';
+import Link from './components/Link.tsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <Button customClass = "btn-success">Click me</Button>
+        
     </div>
   );
 }
