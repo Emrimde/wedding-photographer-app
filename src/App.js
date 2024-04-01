@@ -1,11 +1,12 @@
-import Button from './components/Button.tsx';
-import Link from './components/Link.tsx';
+import Button from './Components/Button/Button.tsx';
+import Link from './Components/Link/Link.tsx';
 import './App.css';
+import Nav from './Components/Nav/Nav.tsx';
 
 function App() {
   return (
     <div className="App">
-        
+        <Nav/>
     </div>
   );
 }
