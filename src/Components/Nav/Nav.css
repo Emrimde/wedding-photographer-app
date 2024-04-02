@@ -1,13 +1,21 @@
-.navigation-background{
-    background-color: rgb(237, 234, 228);
+@media (max-width: 800px) {
+    .group-of-links{
+        display: none;
+    }
 }
 
-.group-of-links{
-    display: flex;
-    align-items: center;
-    height: 70px;
-    text-align: center;
+@media (min-width: 801px) {
+    .navigation-background{
+        background-color: rgb(237, 234, 228);
+    }
     
+    .group-of-links{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        text-align: center;
+        
+    }
 }
 
 h1 {
@@ -18,3 +26,10 @@ h2{
     font-size: 18px;
     margin: 0;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
