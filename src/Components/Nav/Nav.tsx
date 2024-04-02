@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import Link from "../Link/Link.tsx";
 
 function Nav(){
     return(
@@ -9,11 +10,11 @@ function Nav(){
                 <div className="col-sm-4 group-of-links">
                     <h1>Homepage</h1></div>
                 <div className="col-sm-8 group-of-links"> 
-                    <h2 className="col-sm-2">About me</h2>
-                    <h2 className="col-sm-2">Offer</h2>
-                    <h2 className="col-sm-2">Contact</h2>
-                    <h2 className="col-sm-2">Gallery</h2>
-                    <h2 className="col-sm-2">Contact Form</h2>
+                    <h2 className="col-sm-2"><Link href="#" customClass="">About me</Link></h2>
+                    <h2 className="col-sm-2"><Link href="#" customClass="">Offer</Link></h2>
+                    <h2 className="col-sm-2"><Link href="#" customClass="">Contact</Link></h2>
+                    <h2 className="col-sm-2"><Link href="#" customClass="">Gallery</Link></h2>
+                    <h2 className="col-sm-2"><Link href="#" customClass="">Contact Form</Link></h2>
                 </div>
             </div>
         </div>
