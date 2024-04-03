@@ -1,10 +1,14 @@
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .group-of-links{
         display: none;
     }
+   
+    .important-header {
+        font-size: 19px;
+    }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 768px) {
     .navigation-background{
         background-color: rgb(237, 234, 228);
     }
@@ -14,12 +18,11 @@
         align-items: center;
         height: 70px;
         text-align: center;
-        
     }
-}
-
-h1 {
-    font-size: 30px;
+    
+    .important-header {
+        font-size: 30px;
+    }
 }
 
 h2{
