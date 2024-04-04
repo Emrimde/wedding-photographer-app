@@ -1,18 +1,18 @@
 import React, { ReactNode } from "react"
 import Link from "../Link/Link.tsx"
-import "./Section.css"
+import "./Header.css"
 
-type SectionProps = {
+type HeaderProps = {
     children: ReactNode,
     customClass: string,
 }
 
-function Section(props: SectionProps) {
+function Header(props: HeaderProps) {
     return (
-        <section className={props.customClass}>
+        <h1 className={props.customClass}>
            {props.children}
-        </section>
+        </h1>
     )
 }
 
-export default Section
+export default Header

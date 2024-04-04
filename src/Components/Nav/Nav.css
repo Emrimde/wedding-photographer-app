@@ -1,10 +1,6 @@
 @media (max-width: 767px) {
-    .group-of-links{
+    .navigation-background{
         display: none;
-    }
-   
-    .important-header {
-        font-size: 19px;
     }
 }
 
@@ -20,10 +16,9 @@
         text-align: center;
     }
     
-    .important-header {
-        font-size: 30px;
+   
     }
-}
+
 
 h2{
     font-size: 18px;
@@ -35,4 +30,7 @@ a{
     color: black;
 }
 
+.important-header {
+    font-size: 30px;
+}
 
