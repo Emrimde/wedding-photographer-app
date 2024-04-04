@@ -4,6 +4,10 @@
         background-image: url("../../images/background0.jpg");
         background-position: center;
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 }
 
@@ -13,6 +17,9 @@
         background-image: url("../../images/background0.jpg");
         background-position: center;
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
