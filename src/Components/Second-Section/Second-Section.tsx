@@ -30,32 +30,28 @@ function SecondSection(props: SecondSectionProps) {
                 </main>
 
                 <div className="container-sm">
-                <article className="row mb-5 text-center">
-                    <div className="d-flex justify-content-center">
-                    <div className="card card-style col-sm-4 mx-3">
-                        <img src={require('../../images/wedding-portfolio-1.jpg')} className="card-img-top" alt="..."/>
-                            <div className="card-body">
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <article className="row mb-5 text-center d-flex justify-content-center ">
+                            <div className="card card-style m-4">
+                                <img src={require('../../images/wedding-portfolio-1.jpg')} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                    </div>
-                    <div className="card card-style col-sm-4 mx-3">
-                        <img src={require('../../images/wedding-portfolio-2.webp')} className="card-img-top" alt="..."/>
-                            <div className="card-body">
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div className="card card-style m-4">
+                                <img src={require('../../images/wedding-portfolio-2.webp')} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                    </div>
-                    <div className="card card-style col-sm-4 mx-3">
-                        <img src={require('../../images/wedding-portfolio-3.jpg')} className="card-img-top" alt="..."/>
-                            <div className="card-body">
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div className="card card-style m-4">
+                                <img src={require('../../images/wedding-portfolio-3.jpg')} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                    </div>
-                    </div>
-                    
-                </article>
-
+                    </article>
                 </div>
-                
+
 
 
             </section>
