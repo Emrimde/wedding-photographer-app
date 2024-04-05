@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import "./Second-Section.css";
+import Link from "../Link/Link.tsx";
 
 type SecondSectionProps = {
     children: ReactNode,
@@ -59,17 +60,32 @@ function SecondSection(props: SecondSectionProps) {
                 </article>
             </div>
             <footer className="bg-success">
-                <footer className=" row pb-4  d-flex justify-content-space-between mt-5 bg-success">
+                <div className="container-sm">
+                <footer className="  row  d-flex justify-content-center mt-5"> 
                     <aside className="col-sm-4">
-                        <header className="text text-center">Contact</header>
+                        <header className="h2 text-center h1">Contact</header>
+                        <p>Phone number 000-000-000</p>
+                        <p>photographersname@gmail.com</p>
                     </aside>
                     <aside className="col-sm-4">
-                        <header className="text text-center" >[Photographer's name]</header>
+                        <header className="h2 text-center" >[Photographer's name]</header>
                     </aside>
                     <aside className="col-sm-4">
-                        <header className="text text-center">Follow me on</header>
+                        <header className="h2 text-center">Follow me on</header>
+                        <p><Link href="#" customClass="text-decoration-none">Facebook</Link>
+                        
+                        </p>
+                        <p><Link href="#" customClass="text-decoration-none">Instagram</Link>
+                        
+                        </p>
+                        <p><Link href="#" customClass="text-decoration-none">Twitter</Link>
+                        
+                        </p>
                     </aside>
-                </footer>
+                 </footer>
+                 <p className="text-center m-0">All rights reserved &copy; 2024 - My Company</p>
+                </div>
+               
             </footer>
 
 
