@@ -50,10 +50,14 @@ function SecondSection(props: SecondSectionProps) {
                                 </div>
                             </div>
                     </article>
+                    <article className="row text-center main-text">
+                        <header className="display-2 mb-4">Fotograf Ślubny</header>
+                        <p className="mb-4">Dopełnieniem reportażu ślubnego, często są sesje ślubne, które wykonuję w innym, uzgodnionym z Wami terminie. Zapraszam do obejrzenia mojego portfolio oraz na bloga. Zobaczycie tam reportażowy charakter mojej fotografii ślubnej, który pozwoli Wam wyobrazić sobie jak mogą wyglądać Wasze zdjęcia ślubne. Staram się pracować niezauważenie, ponieważ zależy mi, aby ujęcia były naturalne, ale również intrygujące. </p>
+                        <p className="mb-4">Fotografuję śluby w całej Polsce oraz za granicą, moje zdjęcia pokazują najpiękniejsze emocje oraz szczere i niepozowane momenty. Uwielbiam fotografować śluby, ponieważ są pełne romantycznych uniesień, ale również uśmiechu i wzruszeń, co staram się uchwycić w moich kadrach.</p>
+                        <h3 className="mt-5 mb-4"><i>Przyjadę do was wszędzie:  Polska, EUROPA. Świat - nie ma dla mnie granic</i></h3>
+                        <p>Jako <b>fotograf ślubny</b> przywiązuję ogromną wagę do tego by tworzyć dla Was niepowtarzalne zdjęcia ślubne, które skrupulatnie układam w historie miłosne, tak aby oddać w Wasze ręce unikalny reportaż ślubny, który będzie zwieńczeniem tego wyjątkowego dnia. Oglądając swoje fotografie ślubne będziecie nie tylko wspominać jak wyglądaliście w dniu ślubu, ale również jak się czuliście w tych magicznych chwilach. Dużą uwagę zwracam także na Wasze otoczenie, rodzinę i znajomych, ponieważ wiem, że relacje z najbliższymi będą po latach dla Was jedną z najcenniejszych pamiątek ze ślubu i wesela. Każdy fotograf ślubny opowiada na swój sposób historie miłosne – jeśli chcecie abym to właśnie ja napisał Waszą, to koniecznie musimy się poznać! </p>
+                    </article>
                 </div>
-
-
-
             </section>
         </>)
 }
