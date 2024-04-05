@@ -1,6 +1,22 @@
 .main-text{
     font-size: 1.4rem;
 }
+
 .card-style{
     width: 18rem;
 }
+
+.card {
+    width: 22.5rem; 
+    height: auto; 
+}
+
+.img{
+    height: 14rem;
+}
+
+.text{
+    font-size:  3vw;
+}
+
+
