@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react"
-import Link from "../Link/Link.tsx"
+
 import "./Section.css"
 
 type SectionProps = {
@@ -10,7 +10,9 @@ type SectionProps = {
 function Section(props: SectionProps) {
     return (
         <section className={props.customClass}>
-           {props.children}
+           <header className="header-div">
+                <h2 className="header-name text-center">Welcome!</h2>
+           </header>
         </section>
     )
 }

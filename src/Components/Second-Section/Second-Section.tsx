@@ -1,6 +1,10 @@
 import React, { ReactNode } from "react";
 import "./Second-Section.css";
 import Link from "../Link/Link.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 type SecondSectionProps = {
     children: ReactNode,
@@ -61,31 +65,45 @@ function SecondSection(props: SecondSectionProps) {
             </div>
             <footer className="bg-success">
                 <div className="container-sm">
-                <footer className="  row  d-flex justify-content-center mt-5"> 
-                    <aside className="col-sm-4">
-                        <header className="h2 text-center h1">Contact</header>
-                        <p>Phone number 000-000-000</p>
-                        <p>photographersname@gmail.com</p>
-                    </aside>
-                    <aside className="col-sm-4">
-                        <header className="h2 text-center" >[Photographer's name]</header>
-                    </aside>
-                    <aside className="col-sm-4">
-                        <header className="h2 text-center">Follow me on</header>
-                        <p><Link href="#" customClass="text-decoration-none">Facebook</Link>
-                        
+                    <footer className="  row  d-flex justify-content-center mt-5">
+                        <aside className="col-sm-6 col-lg-6">
+                            <header className="h2 text-center mt-3 text-warning">Contact</header>
+                            <p className="text-warning text-center">Phone number 000-000-000</p>
+                            <p className="text-warning text-center">photographersname@gmail.com</p>
+                        </aside>
+                      
+
+                        <aside className="col-sm-6 col-lg-6">
+                            <header className="h2 text-center mt-3 text-warning">Follow me on</header>
+                            <div className="row">
+                        <p className=" text-center col-sm-12">
+                            <Link href="https://www.facebook.com" customClass="btn btn-sm  text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
+                            <Link href="https://www.instagram.com" customClass=" btn  btn-sm  mx-3 text-decoration-none">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </Link>
+                            <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none">
+                                <FontAwesomeIcon icon={faXTwitter} />
+                            </Link>
                         </p>
-                        <p><Link href="#" customClass="text-decoration-none">Instagram</Link>
-                        
+                    </div>
+
+
+                        </aside>
+                    </footer>
+                    <p className="text-center mt-4 mb-0 small"><i>All rights reserved &copy; 2024 - My Company</i></p>
+                    <div className="row">
+                        <p className=" text-center col-sm-12">
+                            <Link href="https://www.facebook.com" customClass="btn btn-sm text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
+                            <Link href="https://www.instagram.com" customClass=" btn  btn-sm text-decoration-none">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </Link>
+                            <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none">
+                                <FontAwesomeIcon icon={faXTwitter} />
+                            </Link>
                         </p>
-                        <p><Link href="#" customClass="text-decoration-none">Twitter</Link>
-                        
-                        </p>
-                    </aside>
-                 </footer>
-                 <p className="text-center m-0">All rights reserved &copy; 2024 - My Company</p>
+                    </div>
                 </div>
-               
+
             </footer>
 
 
