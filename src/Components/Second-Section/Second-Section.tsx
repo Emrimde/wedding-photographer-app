@@ -57,7 +57,7 @@ function SecondSection(props: SecondSectionProps) {
                     <p className="mb-4">As <b>wedding photographer</b> I attach great importance to creating unique wedding photographs for you, which I meticulously arrange into love stories to give you a unique wedding reportage that will be the culmination of that special day. Looking at your wedding photographs you will not only remember how you looked on your wedding day, but also how you felt during those magical moments. I also pay a lot of attention to your surroundings, family and friends, as I know that the relationships with your loved ones will be one of the most precious mementos of your wedding and reception years later. Every wedding photographer tells love stories in their own way - if you want me to be the one to write yours, it's essential that we get to know each other! </p>
                 </article>
             </div>
-            <footer className="border-top border-dark mt-5">
+            {/* <footer className="border-top border-dark mt-5">
                 <div className="container-sm">
                     <footer className="  row  d-flex justify-content-center mt-5">
                         <aside className="col-sm-6 col-lg-6">
@@ -98,7 +98,7 @@ function SecondSection(props: SecondSectionProps) {
                     </div>
                 </div>
 
-            </footer>
+            </footer> */}
 
 
 
