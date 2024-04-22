@@ -5,6 +5,7 @@ import Section from './Components/Section/Section.tsx';
 import SecondSection from './Components/Second-Section/Second-Section.tsx';
 import OfferSection from './Components/OfferSection/OfferSection.tsx';
 import Footer from './Components/Footer/Footer.tsx';
+import AboutMeSection from './Components/AboutMeSection/AboutMeSection.tsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/offer" element={<OfferSection />} />
+          <Route path="/about-me" element={<AboutMeSection/>} />
         </Routes>
         
         <Footer/>
