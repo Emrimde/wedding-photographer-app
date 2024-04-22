@@ -7,8 +7,9 @@
 @media (min-width: 768px) {
     .navigation-background{
         background-color: rgb(237, 234, 228);
-        position: fixed;
-        width: 100%;
+        /* position: fixed; */
+        /* width: 100%; */
+        /* z-index: 1; */
     }
     
     .group-of-links{
@@ -30,9 +31,19 @@ h2{
 a{
     text-decoration: none;
     color: black;
+    transition: 1.5 all;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1 > a:hover{
+text-decoration: none;
 }
 
 .important-header {
     font-size: 30px;
 }
+
 
