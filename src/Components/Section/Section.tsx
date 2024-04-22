@@ -10,8 +10,8 @@ type SectionProps = {
 function Section(props: SectionProps) {
     return (
         <section className={props.customClass}>
-           <header className="header-div">
-                <h2 className="header-name text-center">Welcome!</h2>
+           <header className="header-div" >
+                <h2 className="header-name text-center" id="main-page">Welcome!</h2>
            </header>
         </section>
     )

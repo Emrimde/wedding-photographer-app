@@ -38,50 +38,44 @@ function SecondSection(props: SecondSectionProps) {
                 <article className="row mb-5 text-center d-flex justify-content-center ">
                     <div className="card card-style m-4">
                         <img src={require('../../images/wedding-portfolio-1.jpg')} className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                       
                     </div>
                     <div className="card card-style m-4">
                         <img src={require('../../images/wedding-portfolio-2.webp')} className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                       
                     </div>
                     <div className="card card-style m-4">
                         <img src={require('../../images/wedding-portfolio-3.jpg')} className="card-img-top img" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                        
                     </div>
                 </article>
                 <article className="row text-center main-text">
                     <header className="display-2 mb-4">Wedding Photographer</header>
                     <p className="mb-4">The wedding reportage is often complemented by wedding sessions, which I perform at another, agreed with you, date. I invite you to have a look at my portfolio and blog. There you will see the reportage character of my wedding photography, which will give you an idea of what your wedding photos might look like. I try to work unobtrusively as I want the shots to be natural but also intriguing. </p>
                     <p className="mb-4">I photograph weddings all over Poland and abroad, my photos show the most beautiful emotions and candid and unposed moments. I love photographing weddings because they are full of romantic elation, but also smiles and emotions, which I try to capture in my frames.</p>
-                    <h3 className="mt-5 mb-4"><i>I will come to you anywhere:  Poland, Europe. The world - there are no borders for me</i></h3>
-                    <p>As <b>wedding photographer</b> I attach great importance to creating unique wedding photographs for you, which I meticulously arrange into love stories to give you a unique wedding reportage that will be the culmination of that special day. Looking at your wedding photographs you will not only remember how you looked on your wedding day, but also how you felt during those magical moments. I also pay a lot of attention to your surroundings, family and friends, as I know that the relationships with your loved ones will be one of the most precious mementos of your wedding and reception years later. Every wedding photographer tells love stories in their own way - if you want me to be the one to write yours, it's essential that we get to know each other! </p>
+                    <h1 className=" mt-5 mb-4"><i>I will come to you anywhere:  Poland, Europe. The world - there are no borders for me</i></h1>
+                    <p className="mb-4">As <b>wedding photographer</b> I attach great importance to creating unique wedding photographs for you, which I meticulously arrange into love stories to give you a unique wedding reportage that will be the culmination of that special day. Looking at your wedding photographs you will not only remember how you looked on your wedding day, but also how you felt during those magical moments. I also pay a lot of attention to your surroundings, family and friends, as I know that the relationships with your loved ones will be one of the most precious mementos of your wedding and reception years later. Every wedding photographer tells love stories in their own way - if you want me to be the one to write yours, it's essential that we get to know each other! </p>
                 </article>
             </div>
-            <footer className="bg-success">
+            <footer className="border-top border-dark mt-5">
                 <div className="container-sm">
                     <footer className="  row  d-flex justify-content-center mt-5">
                         <aside className="col-sm-6 col-lg-6">
-                            <header className="h2 text-center mt-3 text-warning">Contact</header>
-                            <p className="text-warning text-center">Phone number 000-000-000</p>
-                            <p className="text-warning text-center">photographersname@gmail.com</p>
+                            <header className="h1 text-center mt-3 ">Contact</header>
+                            <p className="text-center">Phone number 000-000-000</p>
+                            <p className="text-center">photographersname@gmail.com</p>
                         </aside>
                       
 
                         <aside className="col-sm-6 col-lg-6">
-                            <header className="h2 text-center mt-3 text-warning">Follow me on</header>
+                            <header className="h1 text-center mt-3 ">Follow me on</header>
                             <div className="row">
                         <p className=" text-center col-sm-12">
-                            <Link href="https://www.facebook.com" customClass="btn btn-sm  text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
-                            <Link href="https://www.instagram.com" customClass=" btn  btn-sm  mx-3 text-decoration-none">
+                            <Link href="https://www.facebook.com" customClass="btn btn-lg  text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
+                            <Link href="https://www.instagram.com" customClass=" btn  btn-lg  mx-3 text-decoration-none">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </Link>
-                            <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none">
+                            <Link href="https://twitter.com" customClass=" btn btn-lg text-decoration-none">
                                 <FontAwesomeIcon icon={faXTwitter} />
                             </Link>
                         </p>
