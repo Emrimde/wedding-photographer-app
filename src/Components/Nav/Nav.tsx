@@ -21,7 +21,7 @@ function Nav() {
                         <div className="col-sm-8 group-of-links">
                             <Link href="/about-me" customClass="col-sm-2 fs-5">About me</Link>
                             <Link href = "/offer" customClass="col-sm-2 fs-5">Offer</Link>
-                            <Link href="#" customClass="col-sm-2 fs-5">Contact</Link>
+                            <Link href="/contact" customClass="col-sm-2 fs-5">Contact</Link>
                             <div className="dropdown">
                                 <button className="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Portfolio
