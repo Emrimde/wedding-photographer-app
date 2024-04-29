@@ -7,13 +7,13 @@ import OfferSection from './Components/OfferSection/OfferSection.tsx';
 import Footer from './Components/Footer/Footer.tsx';
 import AboutMeSection from './Components/AboutMeSection/AboutMeSection.tsx';
 import ContactSection from './Components/ContactSection/ContactSection.tsx';
-
+import Navv from './Components/Nav/Navv.tsx';
 function App() {
   return (
     <div className="App">
       
      <Router>
-     <Nav/>
+     <Navv/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/offer" element={<OfferSection />} />

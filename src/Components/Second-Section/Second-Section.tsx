@@ -1,10 +1,6 @@
 import React, { ReactNode } from "react";
 import "./Second-Section.css";
-import Link from "../Link/Link.tsx";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+
 
 type SecondSectionProps = {
     children: ReactNode,
@@ -15,7 +11,7 @@ function SecondSection(props: SecondSectionProps) {
     return (
         <>
             <section className="container-sm">
-                <main className="row main-text">
+                <main className="row main-text mt-5">
                     <header className="display-1 text-center mb-4 mt-3">Wedding photography</header>
                     <article>
                         <p><b>Charming, wonderful, romantic</b> - That is exactly what my wedding photography is. Captivating moments, the extraordinary aura of the bride and groom, emotions and unique and atmospheric wedding venues - this is what I love about my work as a wedding photographer. </p>

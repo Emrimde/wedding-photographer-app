@@ -1,21 +1,39 @@
-@media(max-width: 767px){
-    .landing-page{
-        height:100vh;
-        background-image: url("../../images/background0.jpg");
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
+.landing-page {
+    height: 95vh;
+    background-image: url("../../images/background0.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-@media(min-width: 768px){
-    .landing-page{
-        height: 100vh;
-        background-image: url("../../images/background0.jpg");
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-       
-    }
+.landing-page-dark {
+    background-color: rgba(0, 0, 0, 0.22);
+    height: 100%;
 }
 
+@keyframes headerAnimation1 {
+    0% {
+      opacity: 0;
+      filter: blur(5px);
+    }
+    
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+    
+  }
+  
+ 
+  .header-animation1 {
+    animation: headerAnimation1 .5s ease-in-out;
+  }
+
+  .header-animation2 {
+    animation: headerAnimation1 2.5s ease-in-out;
+  }
+
+  .header-animation3 {
+    animation: headerAnimation1 4.5s ease-in-out;
+  }
