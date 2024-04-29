@@ -3,7 +3,7 @@ import React from "react";
 function AboutMeSection() {
     return (<>
         <section className="container">
-            <main className="row mt-5">
+            <section className="row mt-5">
                 <div className=" col-xl-7 col-md-6 col-xs-12 mt-5">
                     <img src={require('../../images/AboutMe1.jpg')} alt="" />
                 </div>
@@ -15,7 +15,7 @@ function AboutMeSection() {
                     <p className="fs-5">Who am I? I was supposed to be a radio presenter, a psychologist and even a journalist. Eventually I became a wedding photographer.<b> I love to look, I love to listen, I love to feel</b>. I photograph because it allows me to feel all these emotions at the same time. I have turned my greatest passion into a way of life and this is what gives me happiness. Photography also constantly teaches me to be sensitive and shows me things I didn't know existed before or simply didn't see around me.</p>
 
                 </div>
-            </main>
+            </section>
             <main className="row mt-3">
                 <div className="col-xl-7 col-md-6 col-xs-12 mt-5">
                     <img src={require('../../images/AboutMe2.jpg')} alt="" />
