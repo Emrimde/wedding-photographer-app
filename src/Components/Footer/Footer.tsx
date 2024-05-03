@@ -33,9 +33,9 @@ function Footer(){
 
             </aside>
         </footer>
-        <p className="text-center mt-4 mb-0 small"><i>All rights reserved &copy; 2024 - My Company</i></p>
+        
         <div className="row">
-            <p className=" text-center col-sm-12">
+            <p className=" text-center col-sm-12 mt-5">
                 <Link href="https://www.facebook.com" customClass="btn btn-sm text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
                 <Link href="https://www.instagram.com" customClass=" btn  btn-sm text-decoration-none">
                     <FontAwesomeIcon icon={faInstagram} />
@@ -43,6 +43,7 @@ function Footer(){
                 <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none">
                     <FontAwesomeIcon icon={faXTwitter} />
                 </Link>
+                <p className="text-center mt-1 mb-0  col-sm-12"><i>All rights reserved &copy; 2024 - My Company</i></p>
             </p>
         </div>
     </div>

@@ -7,7 +7,10 @@ import OfferSection from './Components/OfferSection/OfferSection.tsx';
 import Footer from './Components/Footer/Footer.tsx';
 import AboutMeSection from './Components/AboutMeSection/AboutMeSection.tsx';
 import ContactSection from './Components/ContactSection/ContactSection.tsx';
-import Navv from './Components/Nav/Navv.tsx';
+import Navv from './Components/Nav/Nav.tsx';
+import WeddingOutdoor from './Components/WeddingOutdoor/WeddingOutdoor.tsx';
+import EngagementSession from './Components/EngagementSession/EngagementSession.tsx';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,9 @@ function App() {
           <Route path="/offer" element={<OfferSection />} />
           <Route path="/about-me" element={<AboutMeSection/>} />
           <Route path="/contact" element={<ContactSection/>} />
+          <Route path="/wedding-outdoor" element={<WeddingOutdoor/>} />
+          {/* <Route path="/wedding-reportage" element={<WeddingReportage/>} /> */}
+          <Route path="/engagement-session" element={<EngagementSession/>} />
         </Routes>
         
         <Footer/>

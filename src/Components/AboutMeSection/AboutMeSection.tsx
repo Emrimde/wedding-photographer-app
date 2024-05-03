@@ -44,40 +44,40 @@ function AboutMeSection() {
             <div className="row">
                 <form className="border border-dark p-5  ">
                     <div className=" row ">
-                    <div className="mb-3 col-xl-4 col-md-12">
-                        <label className="form-label">Your names</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                        
+                        <div className="mb-3 col-xl-4 col-md-12">
+                            <label className="form-label">Your names</label>
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                        </div>
+                        <div className="mb-3 col-xl-2 col-md-12">
+                            <label className="form-label">Date of the wedding</label>
+                            <input type="email" className="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div className="mb-3 col-xl-4 col-md-12">
+                            <label className="form-label">Email</label>
+                            <input type="email" className="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div className="mb-3 col-xl-2 col-md-12">
+                            <label className="form-label">Phone number</label>
+                            <input type="email" className="form-control" id="exampleInputPassword1" />
+                        </div>
                     </div>
-                    <div className="mb-3 col-xl-2 col-md-12">
-                        <label className="form-label">Date of the wedding</label>
-                        <input type="email" className="form-control" id="exampleInputPassword1" />
-                    </div>
-                    <div className="mb-3 col-xl-4 col-md-12">
-                        <label className="form-label">Email</label>
-                        <input type="email" className="form-control" id="exampleInputPassword1" />
-                    </div>
-                    <div className="mb-3 col-xl-2 col-md-12">
-                        <label className="form-label">Phone number</label>
-                        <input type="email" className="form-control" id="exampleInputPassword1" />
-                    </div>
-                    </div>
-                   
-                   <div className="row">
-                   <div className="mb-3 col-md-12">
-                        <label className="form-label">How do you know about me?</label>
-                        <input type="email" className="form-control" id="exampleInputPassword1" />
-                    </div>
+
+                    <div className="row">
+                        <div className="mb-3 col-md-12">
+                            <label className="form-label">How do you know about me?</label>
+                            <input type="email" className="form-control" id="exampleInputPassword1" />
+                        </div>
                     </div>
                     <div className="row">
-                    <div className="mb-3 col-md-12">
-                        <label className="form-label">Write a few words about your wedding</label>
-                        <textarea className="form-control"  id="comment" name="text"></textarea>
+                        <div className="mb-3 col-md-12">
+                            <label className="form-label">Write a few words about your wedding</label>
+                            <textarea className="form-control" id="comment" name="text"></textarea>
+                        </div>
                     </div>
-                    </div>
-                    
-                   
-                    
+
+
+
 
 
                     <button type="submit" className="btn btn-primary">Submit</button>

@@ -38,41 +38,41 @@ function ContactSection() {
                             <div className="mb-3 col-md-12">
                                 <label className="form-label">Write a few words about your wedding</label>
                                 <textarea className="form-control" id="comment" name="text"></textarea>
-                                 
+
                             </div>
                         </div>
 
 
                         <div >
                             <div className="mb-3 col-md-12">
-                            <button type="submit" className="btn btn-lg btn-dark">Send Message</button>
-                                 
+                                <button type="submit" className="btn btn-lg btn-dark">Send Message</button>
+
                             </div>
                         </div>
 
 
 
-                       
+
                     </form>
                 </div>
 
                 <div className="col-xl-6 px-5">
                     <div>
-                    <p><b>Photographer's name</b></p>
-                    <p><b>mobile phone:</b> 000 000 000</p>
-                    <p><b>e-mail:</b> photographersname@gmail.com</p>
+                        <p><b>Photographer's name</b></p>
+                        <p><b>mobile phone:</b> 000 000 000</p>
+                        <p><b>e-mail:</b> photographersname@gmail.com</p>
                     </div>
-                   
-                   
-                   <p className="my-5 small fs-5">I photograph most often in cities such as:
+
+
+                    <p className="my-5 small fs-5">I photograph most often in cities such as:
                         Krakow, Katowice, Czestochowa, Warsaw,
                         but I am happy to take orders
                         all over the country.</p>
-                  
-                   
 
-                   
-                   
+
+
+
+
                     <p> <b>Facebook</b> http://www.facebook.com/photographersname  </p>
                     <p><b>Instagram:</b> https://www.instagram.com/photographersname </p>
                     <p></p>

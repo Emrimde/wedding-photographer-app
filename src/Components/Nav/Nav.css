@@ -39,8 +39,7 @@ a, button{
     transition: .5s all;
 }
 
-button:hover, a:hover {
-   
+button:hover, .link-scale:hover {
     transform: scale(1.1);
 }
 

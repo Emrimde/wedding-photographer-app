@@ -14,26 +14,26 @@
 
 @keyframes headerAnimation1 {
     0% {
-      opacity: 0;
-      filter: blur(5px);
+        opacity: 0;
+        filter: blur(5px);
     }
-    
+
     100% {
-      opacity: 1;
-      filter: blur(0);
+        opacity: 1;
+        filter: blur(0);
     }
-    
-  }
-  
- 
-  .header-animation1 {
+
+}
+
+
+.header-animation1 {
     animation: headerAnimation1 .5s ease-in-out;
-  }
+}
 
-  .header-animation2 {
+.header-animation2 {
     animation: headerAnimation1 2.5s ease-in-out;
-  }
+}
 
-  .header-animation3 {
+.header-animation3 {
     animation: headerAnimation1 4.5s ease-in-out;
-  }
+}
