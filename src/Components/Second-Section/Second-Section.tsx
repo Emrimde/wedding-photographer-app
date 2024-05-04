@@ -1,5 +1,7 @@
 import React, { ReactNode } from "react";
 import "./Second-Section.css";
+import { weddingPortfolio3, weddingPortfolio4 } from "../../images";
+
 
 function SecondSection() {
     return (
@@ -27,31 +29,18 @@ function SecondSection() {
             </section>
             <div className="container-sm">
                 <article className="row mb-5 text-center  ">
-                    {/* / d-flex justify-content-center */}
-                    {/* <div className="card card-style m-4">
-                        <img src={require('../../images/wedding-portfolio-1.jpg')} className="card-img-top" alt="..." />
-
+                    <div className="col-12 col-sm-6">
+                        <a href="/wedding-outdoor" className="position-relative d-block mt-4 photo-animation">
+                            <img src={weddingPortfolio3} className="img-fluid w-75" alt="Wedding Outdoor" />
+                            <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Wedding Outdoor</span>
+                        </a>
                     </div>
-                    <div className="card card-style m-4">
-                        <img src={require('../../images/wedding-portfolio-2.webp')} className="card-img-top" alt="..." />
-
+                    <div className="col-12 col-sm-6">
+                        <a href="/engagement-session" className="position-relative d-block mt-4 photo-animation">
+                            <img src={weddingPortfolio4} className="img-fluid w-75" alt="Engagement Session" />
+                            <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Engagement Session</span>
+                        </a>
                     </div>
-                    <div className="card card-style m-4">
-                        <img src={require('../../images/wedding-portfolio-3.jpg')} className="card-img-top img" alt="..." />
-
-                    </div> */}
-                 <div className="col-12 col-sm-6">
-    <a href="/wedding-outdoor" className="position-relative d-block mt-2 photo-animation">
-        <img src={require("../../images/wedding-portfolio3.jpg")} className="img-fluid w-75" alt="Wedding Outdoor" />
-        <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Wedding Outdoor</span>
-    </a>
-</div>
-<div className="col-12 col-sm-6">
-    <a href="/engagement-session" className="position-relative d-block mt-2 photo-animation">
-        <img src={require("../../images/wedding-portfolio4.jpg")} className="img-fluid w-75" alt="Engagement Session" />
-        <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Engagement Session</span>
-    </a>
-</div>
 
 
                 </article>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./OfferSection.css";
+import { offerSection1 } from "../../images";
 
 
 function OfferSection() {
@@ -11,7 +12,7 @@ function OfferSection() {
             </div>
             <div className="row mt-3">
                 <div className="text-center">
-                    <img src={require('../../images/OfferSection1.jpg')} alt="" />
+                    <img src={offerSection1} alt="couple" />
                 </div>
             </div>
 
@@ -21,8 +22,8 @@ function OfferSection() {
                 </div>
                 <hr></hr>
                 <h1 className="text-center my-4">Offer</h1>
-                <div className="row mb-2">
-                    <div className="col-md-4 col-sm-6 col-xs-12 bg-secondary-subtle">
+                <div className="row mb-2 mt-5 ">
+                    <div className="col-md-4 col-sm-6 col-xs-12 bg-secondary-subtle pb-5">
                         <h1>Package 1</h1>
                         <small>Brief Reportage</small>
                         <ul>
@@ -37,12 +38,12 @@ function OfferSection() {
 
                         </ul>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-xs-12">
+                    <div className="col-md-4 col-sm-6 col-xs-12 pb-5">
                         <h1>Package 2</h1>
                         <small>Full Reportage</small>
                         <ul><li> up to 12 hours of reportage,</li><li>optional short outdoor session on the wedding day,</li><li>overall<strong> min. 500 photos </strong>submitted in digital form:<ul><li>min. 300 photographs subjected to author's graphic processing</li><li>min. 300 photographs subjected to author's graphic processing, (white balance, exposure, contrast, saturation)</li></ul></li></ul>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-xs-12 bg-secondary-subtle">
+                    <div className="col-md-4 col-sm-6 col-xs-12 bg-secondary-subtle pb-5">
                         <h1>Package 3</h1>
                         <small>Extended Reportage</small>
                         <ul>

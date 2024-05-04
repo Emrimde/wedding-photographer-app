@@ -1,11 +1,12 @@
 import React from "react";
+import { aboutMe1, aboutMe2 } from "../../images";
 
 function AboutMeSection() {
     return (<>
         <section className="container">
             <section className="row mt-5">
                 <div className=" col-xl-7 col-md-6 col-xs-12 mt-5">
-                    <img src={require('../../images/AboutMe1.jpg')} alt="" />
+                    <img src={aboutMe1} alt="" />
                 </div>
                 <div className=" col-xl-5 col-md-6 col-xs-12 mt-5">
                     <h3 className="text-center mb-3"><b>Meet the photographer for your wedding. </b></h3>
@@ -18,10 +19,10 @@ function AboutMeSection() {
             </section>
             <main className="row mt-3">
                 <div className="col-xl-7 col-md-6 col-xs-12 mt-5">
-                    <img src={require('../../images/AboutMe2.jpg')} alt="" />
+                    <img src={aboutMe2} alt="Photographer" />
                 </div>
                 <div className=" col-xl-5 col-md-6 col-xs-12 mt-5">
-                    <p className=" fs-5">I photographed for <b>over 10 years</b> before I finally chose wedding photography - it is what gives me the most satisfaction. When photographing, I always make a reportage with regard to the aesthetic and artistic side of photography. When working, I try not to influence the course of events unless there is a clear need to do so. I believe that a photographer at a wedding is not a director but a participant in the events, so I always try to be close to you, especially where the emotions are. <b>Being with you during one of the most important days of your life, is something truly amazing and something unique every time.</b> When photographing weddings, I can call myself a "subtle voyeur of emotions". - so I become part of them and can create images for you that are filled with true love.</p>
+                    <p className="fs-5">I photographed for <b>over 10 years</b> before I finally chose wedding photography - it is what gives me the most satisfaction. When photographing, I always make a reportage with regard to the aesthetic and artistic side of photography. When working, I try not to influence the course of events unless there is a clear need to do so. I believe that a photographer at a wedding is not a director but a participant in the events, so I always try to be close to you, especially where the emotions are. <b>Being with you during one of the most important days of your life, is something truly amazing and something unique every time.</b> When photographing weddings, I can call myself a "subtle voyeur of emotions". - so I become part of them and can create images for you that are filled with true love.</p>
 
                     <p className="fs-5">Over the years, I have managed to develop an individual style that I am very proud of. That is why I encourage you to take a look at my portfolio. This is where I present wedding reportages and the results of outdoor sessions. If such photographs appeal to you, I am sure we will find a common language in other matters.</p>
 
@@ -75,11 +76,6 @@ function AboutMeSection() {
                             <textarea className="form-control" id="comment" name="text"></textarea>
                         </div>
                     </div>
-
-
-
-
-
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
             </div>

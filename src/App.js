@@ -10,6 +10,7 @@ import ContactSection from './Components/ContactSection/ContactSection.tsx';
 import Navv from './Components/Nav/Nav.tsx';
 import WeddingOutdoor from './Components/WeddingOutdoor/WeddingOutdoor.tsx';
 import EngagementSession from './Components/EngagementSession/EngagementSession.tsx';
+import Blog from './Components/Blog/Blog.tsx';
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
           <Route path="/about-me" element={<AboutMeSection/>} />
           <Route path="/contact" element={<ContactSection/>} />
           <Route path="/wedding-outdoor" element={<WeddingOutdoor/>} />
-          {/* <Route path="/wedding-reportage" element={<WeddingReportage/>} /> */}
           <Route path="/engagement-session" element={<EngagementSession/>} />
+          <Route path="/blog" element={<Blog/>} />
         </Routes>
         
         <Footer/>
