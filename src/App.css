@@ -7,6 +7,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    line-height: 40px;
   }
 
   .text-100{
@@ -47,4 +48,24 @@ body {
 
   .text-italic{
     font-style: italic;
+  }
+
+  .mt-6{
+    margin-top: 4rem;
+  }
+
+  .mt-7{
+    margin-top: 5rem;
+  }
+
+  .mt-8{
+    margin-top: 6rem;
+  }
+
+  .mb-7{
+    margin-bottom: 5rem;
+  }
+
+  .mb-8{
+    margin-bottom: 6rem;
   }

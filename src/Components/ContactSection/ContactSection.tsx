@@ -1,5 +1,10 @@
 import React from "react";
 import "./ContactSection.css";
+import Link from "../Link/Link.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function ContactSection() {
     return (<>
@@ -56,7 +61,7 @@ function ContactSection() {
                     </form>
                 </div>
 
-                <div className="col-xl-6 px-5">
+                <div className="col-xl-6 ps-4 mt-5">
                     <div>
                         <p><b>Photographer's name</b></p>
                         <p><b>mobile phone:</b> 000 000 000</p>
@@ -73,9 +78,22 @@ function ContactSection() {
 
 
 
-                    <p> <b>Facebook</b> http://www.facebook.com/photographersname  </p>
-                    <p><b>Instagram:</b> https://www.instagram.com/photographersname </p>
-                    <p></p>
+                    <p>  <Link href="https://twitter.com" customClass=" btn btn-lg text-decoration-none link-scale " target="_blank">
+                        <span className="me-3" >Twitter</span>
+                    <FontAwesomeIcon icon={faXTwitter} />
+                </Link>  </p>
+
+                <p>  <Link href="https://facebook.com" customClass=" btn btn-lg link-scale text-decoration-none" target="_blank">
+                        <span className="me-3" >Facebook</span>
+                    <FontAwesomeIcon icon={faFacebook} />
+                </Link>  </p>
+
+                <p className="mb-4">  <Link href="https://instagram.com" customClass=" btn btn-lg text-decoration-none link-scale " target="_blank">
+                        <span className="me-3" >Instagram</span>
+                    <FontAwesomeIcon icon={faInstagram} />
+                </Link>  </p>
+                   
+                    
                     <p>PHOTOGRAPHER'S COMPANY STUDIO
                         NIP: 0000000000
                         KRS: 0000000000</p>

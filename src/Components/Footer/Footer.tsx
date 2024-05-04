@@ -20,11 +20,11 @@ function Footer(){
                 <header className="h1 text-center mt-3 ">Follow me on</header>
                 <div className="row">
             <p className=" text-center col-sm-12">
-                <Link href="https://www.facebook.com" customClass="btn btn-lg  text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
-                <Link href="https://www.instagram.com" customClass=" btn  btn-lg  mx-3 text-decoration-none">
+                <Link href="https://www.facebook.com" customClass="btn btn-lg  text-decoration-none" target="_blank"><FontAwesomeIcon icon={faFacebook} ></FontAwesomeIcon></Link>
+                <Link href="https://www.instagram.com" customClass=" btn  btn-lg  mx-3 text-decoration-none" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} />
                 </Link>
-                <Link href="https://twitter.com" customClass=" btn btn-lg text-decoration-none">
+                <Link href="https://twitter.com" customClass=" btn btn-lg text-decoration-none" target="_blank">
                     <FontAwesomeIcon icon={faXTwitter} />
                 </Link>
             </p>
@@ -36,11 +36,11 @@ function Footer(){
         
         <div className="row">
             <p className=" text-center col-sm-12 mt-5">
-                <Link href="https://www.facebook.com" customClass="btn btn-sm text-decoration-none"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
-                <Link href="https://www.instagram.com" customClass=" btn  btn-sm text-decoration-none">
+                <Link href="https://www.facebook.com" customClass="btn btn-sm text-decoration-none" target="_blank"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
+                <Link href="https://www.instagram.com" customClass=" btn  btn-sm text-decoration-none" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} />
                 </Link>
-                <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none">
+                <Link href="https://twitter.com" customClass=" btn btn-sm text-decoration-none" target="_blank">
                     <FontAwesomeIcon icon={faXTwitter} />
                 </Link>
                 <p className="text-center mt-1 mb-0  col-sm-12"><i>All rights reserved &copy; 2024 - My Company</i></p>

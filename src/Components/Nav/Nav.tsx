@@ -15,10 +15,10 @@ function Navv() {
                         <div className=" col-12 col-sm-8">
                             <div className="h-100 d-flex justify-content-evenly align-items-center">
 
-                                <Link href="/about-me" customClass="fs-4 d-none d-lg-block link-scale">About me</Link>
-                                <Link href="/offer" customClass="fs-4 d-none d-lg-block link-scale">Offer</Link>
-                                <Link href="/contact" customClass="fs-4 d-none d-lg-block  link-scale">Contact</Link>
-                                <Link href="/blog" customClass="fs-4 d-none d-lg-block link-scale">Blog</Link>
+                                <Link href="/about-me" customClass="fs-4 d-none d-lg-block link-scale" target="">About me</Link>
+                                <Link href="/offer" customClass="fs-4 d-none d-lg-block link-scale" target="">Offer</Link>
+                                <Link href="/contact" customClass="fs-4 d-none d-lg-block  link-scale" target="">Contact</Link>
+                                <Link href="/blog" customClass="fs-4 d-none d-lg-block link-scale" target="">Blog</Link>
                                 <div className="dropdown d-block d-lg-none">
                                     <button className="btn dropdown-toggle fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Menu
