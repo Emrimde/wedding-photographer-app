@@ -2,10 +2,8 @@ import React from "react";
 import "./OfferSection.css";
 import { offerSection1 } from "../../images";
 
-
 function OfferSection() {
     return (<>
-
         <main className="container">
             <div className="row">
                 <h1 className="text-center display-3 mt-3">Wedding offer</h1>
@@ -15,7 +13,6 @@ function OfferSection() {
                     <img src={offerSection1} alt="couple" />
                 </div>
             </div>
-
             <div className="row mt-5">
                 <div>
                     <p className="text-start px-3 fs-5">If you are dreaming of original yet natural photographs from a wedding and reception kept in a reporter's atmosphere, I invite you to come and see me. A wedding is a unique event. It is worth keeping it for longer. My recipe for unique wedding photographs is simple. I try to capture the moment. I am everywhere, but as if I am not there. I juggle frames and capture the most fleeting ones.</p>
@@ -35,7 +32,6 @@ function OfferSection() {
                                     <li>min. 200 photos with basic correction (white balance, exposure, contrast, saturation)</li>
                                 </ul>
                             </li>
-
                         </ul>
                     </div>
                     <div className="col-md-4 col-sm-6 col-xs-12 pb-5">
@@ -54,21 +50,12 @@ function OfferSection() {
                                 <li>min. 500 images subjected to basic correction (white balance, exposure, contrast, saturation)</li>
                             </ul>
                             </li>
-
                         </ul>
                     </div>
-
-
                 </div>
-
             </div>
-
-
-
         </main>
-
     </>)
-
 }
 
 export default OfferSection
