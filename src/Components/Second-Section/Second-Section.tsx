@@ -1,5 +1,6 @@
 import React from "react";
 import "./Second-Section.css";
+import Link from "../Link/Link.tsx";
 import { weddingPortfolio3, weddingPortfolio4 } from "../../images";
 
 function SecondSection() {
@@ -28,16 +29,16 @@ function SecondSection() {
             <div className="container-sm">
                 <article className="row mb-5 text-center  ">
                     <div className="col-12 col-sm-6">
-                        <a href="/wedding-outdoor" className="position-relative d-block mt-4 photo-animation">
+                        <Link href="/wedding-outdoor" customClass="position-relative d-block mt-4 photo-animation" target="">
                             <img src={weddingPortfolio3} className="img-fluid w-75" alt="Wedding Outdoor" />
                             <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Wedding Outdoor</span>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-12 col-sm-6">
-                        <a href="/engagement-session" className="position-relative d-block mt-4 photo-animation">
+                        <Link href="/engagement-session" customClass="position-relative d-block mt-4 photo-animation" target="">
                             <img src={weddingPortfolio4} className="img-fluid w-75" alt="Engagement Session" />
                             <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Engagement Session</span>
-                        </a>
+                        </Link>
                     </div>
                 </article>
                 <article className="row text-center main-text">
