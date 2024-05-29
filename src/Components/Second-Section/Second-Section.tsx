@@ -1,7 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import "./Second-Section.css";
 import { weddingPortfolio3, weddingPortfolio4 } from "../../images";
-
 
 function SecondSection() {
     return (
@@ -15,7 +14,6 @@ function SecondSection() {
                     </article>
                     <article>
                         <h3 className="text-center mb-4"><b>Wedding Photographer</b>  for people which see a difference</h3>
-
                         <p>I was captivated by wedding photography. With its beauty, with its extraordinary aura, with its unique surroundings. A wedding photographer allows you to freeze in images those extraordinary moments when your journey together begins. I became a wedding photographer out of a deliberate <span className="text-800">Initially</span>, I attempted many other avenues, but I only felt full satisfaction when I was able to document images from this extraordinary day in other people's lives. I take wedding photographs mainly in <span className="text-800">Silesia and Malopolska regions</span>, in cities such as <span className="text-700">Krakow, Katowice, Czestochowa</span>, but I will be happy to make a wedding reportage for you in any corner of Poland and the world. For beautiful wedding frames I am able to travel many kilometres.</p>
                     </article>
                     <article>
@@ -41,8 +39,6 @@ function SecondSection() {
                             <span className="h2 text-white position-absolute bottom-0 start-50 translate-middle-x">Engagement Session</span>
                         </a>
                     </div>
-
-
                 </article>
                 <article className="row text-center main-text">
                     <header className="display-3 mb-4">Wedding Photographer</header>
