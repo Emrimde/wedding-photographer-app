@@ -14,8 +14,6 @@ function Footer(){
                 <p className="text-center">Phone number 000-000-000</p>
                 <p className="text-center">photographersname@gmail.com</p>
             </aside>
-          
-
             <aside className="col-sm-6 col-lg-6">
                 <header className="h1 text-center mt-3 ">Follow me on</header>
                 <div className="row">
@@ -29,11 +27,8 @@ function Footer(){
                 </Link>
             </p>
         </div>
-
-
             </aside>
         </footer>
-        
         <div className="row">
             <p className=" text-center col-sm-12 mt-5">
                 <Link href="https://www.facebook.com" customClass="btn btn-sm text-decoration-none" target="_blank"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></Link>
@@ -47,7 +42,6 @@ function Footer(){
             </p>
         </div>
     </div>
-
 </footer></>)
 }
 

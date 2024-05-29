@@ -1,7 +1,6 @@
-import React, { ReactNode } from "react"
+import React from "react"
 import "./Blog.css";
 import { blog4, blog7, blog8 } from "../../images";
-
 
 function Blog() {
     return (
@@ -36,7 +35,6 @@ function Blog() {
                     <img className="img-fluid" src={blog8} alt="couple" />
                 </div>
                 <div className="d-flex justify-content-center mt-3"> <p className="col-10 col-sm-10 mt-2  ">The timeless architecture provided a stunning backdrop for the couple's session, adding an extra layer of <span className="text-700">romance</span> and <span className="text-700">elegance</span> to their special day. Every shot was infused with the charm and grandeur of this historic location.</p></div>
-
                 <div className="col-11 col-sm-11 text-end link-underline mb-8">
                     <a href="#">See more</a>
                 </div>
