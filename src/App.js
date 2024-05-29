@@ -27,7 +27,6 @@ function App() {
           <Route path="/engagement-session" element={<EngagementSession/>} />
           <Route path="/blog" element={<Blog/>} />
         </Routes>
-        
         <Footer/>
       </Router>
       
