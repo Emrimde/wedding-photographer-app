@@ -2,6 +2,7 @@ import React from "react"
 import "./HomePage.css"
 import Link from "../Link/Link.tsx"
 import { weddingPortfolio3, weddingPortfolio4 } from "../../images/index.js";
+
 type SectionProps = {
     customClass: string,
 }
@@ -22,12 +23,6 @@ function HomePage(props: SectionProps) {
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
             <section className="container-sm">
                 <main className="row main-text mt-5">
                     <header className="display-3 text-center mb-4 mt-3">Wedding photography</header>
@@ -71,9 +66,7 @@ function HomePage(props: SectionProps) {
                     <p className="mb-4">As <span className="text-700">wedding photographer</span> I attach great importance to creating unique wedding photographs for you, which I meticulously arrange into love stories to give you a unique wedding reportage that will be the culmination of that special day. Looking at your wedding photographs you will not only remember how you looked on your wedding day, but also how you felt during those magical moments. I also pay a lot of attention to your surroundings, family and friends, as I know that the relationships with your loved ones will be one of the most precious mementos of your wedding and reception years later. Every wedding photographer tells love stories in their own way - <span className="text-800">if you want me to be the one to write yours, it's essential that we get to know each other!</span> </p>
                 </article>
             </div>
-
         </>
-
     )
 }
 

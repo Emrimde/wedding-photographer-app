@@ -19,7 +19,7 @@ function Nav() {
                                 <Link href="/blog" customClass="fs-4 d-none d-lg-block link-scale" target="">Blog</Link>
                                 <div className="dropdown d-block d-lg-none">
                                     <button className="btn dropdown-toggle fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Menu
+                                        <span className="text-500">Menu</span>
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li><Link customClass="dropdown-item d-block d-sm-none" href="/" target="">Homepage</Link></li>
@@ -31,7 +31,7 @@ function Nav() {
                                 </div>
                                 <div className="dropdown">
                                     <button className="btn dropdown-toggle fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Portfolio
+                                        <span className = "text-500">Portfolio</span>
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li><Link customClass="dropdown-item" href="/wedding-outdoor" target="">Wedding outdoor</Link></li>
