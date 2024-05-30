@@ -16,31 +16,31 @@ function ContactSection() {
                         <div>
                             <div className="mb-3  col-md-12">
                                 <label className="form-label">Your names</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                <input type="email" className="form-control border border-dark" id="exampleInputEmail1" aria-describedby="emailHelp" />
                             </div>
                             <div className="mb-3  col-md-12">
                                 <label className="form-label">Date of the wedding</label>
-                                <input type="email" className="form-control" id="exampleInputPassword1" />
+                                <input type="email" className="form-control border border-dark" id="exampleInputPassword1" />
                             </div>
                             <div className="mb-3  col-md-12">
                                 <label className="form-label">Email</label>
-                                <input type="email" className="form-control" id="exampleInputPassword1" />
+                                <input type="email" className="form-control border border-dark" id="exampleInputPassword1" />
                             </div>
                             <div className="mb-3  col-md-12">
                                 <label className="form-label">Phone number</label>
-                                <input type="email" className="form-control" id="exampleInputPassword1" />
+                                <input type="email" className="form-control border border-dark" id="exampleInputPassword1" />
                             </div>
                         </div>
                         <div >
                             <div className="mb-3 col-md-12">
                                 <label className="form-label">How do you know about me?</label>
-                                <input type="email" className="form-control" id="exampleInputPassword1" />
+                                <input type="email" className="form-control border border-dark" id="exampleInputPassword1" />
                             </div>
                         </div>
                         <div >
                             <div className="mb-3 col-md-12">
                                 <label className="form-label">Write a few words about your wedding</label>
-                                <textarea className="form-control" id="comment" name="text"></textarea>
+                                <textarea className="form-control border border-dark" id="comment" name="text"></textarea>
                             </div>
                         </div>
                         <div >
@@ -56,7 +56,7 @@ function ContactSection() {
                         <p><b>mobile phone:</b> 000 000 000</p>
                         <p><b>e-mail:</b> photographersname@gmail.com</p>
                     </div>
-                    <p className="my-5 small fs-5">I photograph most often in cities such as:
+                    <p className="my-5 slim-paragraph fs-5">I photograph most often in cities such as:
                         Krakow, Katowice, Czestochowa, Warsaw,
                         but I am happy to take orders
                         all over the country.</p>

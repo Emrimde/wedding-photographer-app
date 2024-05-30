@@ -1,37 +1,7 @@
 
 .navigation-background{
-    background-color: rgb(237, 234, 228);
-      /* position: fixed; 
-         width: 100%; 
-         z-index: 1;  */
+    background-color: rgb(212, 210, 210);
 }
-
-/* @media (max-width: 767px) {
-    .navigation-background{
-        background-color: rgb(237, 234, 228);
-    }
-}
-
-@media (min-width: 768px) {
-    .navigation-background{ */
-        /* background-color: rgb(237, 234, 228); */
-        /* position: fixed; */
-        /* width: 100%; */
-        /* z-index: 1; */
-    /* } */
-    
-    /* .group-of-links{
-        display: flex;
-        align-items: center;
-        height: 70px;
-        text-align: center;
-    } */
-    
-   
-    /* } */
-
-
-
 
 a, button{
     text-decoration: none;
