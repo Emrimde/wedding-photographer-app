@@ -1,11 +1,33 @@
-import React from "react";
-import "./Second-Section.css";
-import Link from "../Link/Link.tsx";
-import { weddingPortfolio3, weddingPortfolio4 } from "../../images";
+import React from "react"
+import "./HomePage.css"
+import Link from "../Link/Link.tsx"
+import { weddingPortfolio3, weddingPortfolio4 } from "../../images/index.js";
+type SectionProps = {
+    customClass: string,
+}
 
-function SecondSection() {
+function HomePage(props: SectionProps) {
     return (
         <>
+            <section className={props.customClass}>
+                <div className="landing-page-dark">
+                    <div className="container">
+                        <header className="row ">
+                            <h1 className=" mt-5 display-4 col-sm-12 text-center text-warning header-animation1" id="main-page">Welcome!</h1>
+                            <h2 className="mt-5 col-sm-12 text-center text-warning header-animation2"><b>I am</b> wedding photographer <b>and...</b>
+                            </h2>
+                            <h2 className="mt-3 col-sm-12 text-center text-warning header-animation3">
+                                <b>I</b> want <b>you</b> to remember this day for the rest of your life </h2>
+                        </header>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
             <section className="container-sm">
                 <main className="row main-text mt-5">
                     <header className="display-3 text-center mb-4 mt-3">Wedding photography</header>
@@ -49,7 +71,10 @@ function SecondSection() {
                     <p className="mb-4">As <span className="text-700">wedding photographer</span> I attach great importance to creating unique wedding photographs for you, which I meticulously arrange into love stories to give you a unique wedding reportage that will be the culmination of that special day. Looking at your wedding photographs you will not only remember how you looked on your wedding day, but also how you felt during those magical moments. I also pay a lot of attention to your surroundings, family and friends, as I know that the relationships with your loved ones will be one of the most precious mementos of your wedding and reception years later. Every wedding photographer tells love stories in their own way - <span className="text-800">if you want me to be the one to write yours, it's essential that we get to know each other!</span> </p>
                 </article>
             </div>
-        </>)
+
+        </>
+
+    )
 }
 
-export default SecondSection
+export default HomePage

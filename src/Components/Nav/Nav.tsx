@@ -2,7 +2,7 @@ import React from "react"
 import "./Nav.css";
 import Link from "../Link/Link.tsx";
 
-function Navv() {
+function Nav() {
     return (
         <>
             <nav className="navigation-background">
@@ -47,4 +47,4 @@ function Navv() {
     )
 }
 
-export default Navv
+export default Nav
